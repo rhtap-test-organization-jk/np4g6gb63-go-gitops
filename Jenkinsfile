@@ -31,7 +31,7 @@ pipeline {
         /* URL of the OIDC token issuer (e.g. https://sso.trustification.dev/realms/chicken) */
         TRUSTIFICATION_OIDC_ISSUER_URL = credentials('TRUSTIFICATION_OIDC_ISSUER_URL')
         TRUSTIFICATION_OIDC_CLIENT_ID = credentials('TRUSTIFICATION_OIDC_CLIENT_ID'
-        TRUSTIFICATION_SUPPORTED_CYCLONEDX_VERSION = credentials('TRUSTIFICATION_SUPPORTED_CYCLONEDX_VERSION')
+        /*TRUSTIFICATION_SUPPORTED_CYCLONEDX_VERSION = credentials('TRUSTIFICATION_SUPPORTED_CYCLONEDX_VERSION')*/
         /* Set when using Jenkins on non-local cluster and using an external Rekor instance */
         /* REKOR_HOST = credentials('REKOR_HOST') */
         /* Set when using Jenkins on non-local cluster and using an external TUF instance */
